@@ -1,4 +1,4 @@
-public class ResizingArrayQueueOfStrings {
+public class ResizingArrayQueueOfStrings {  //este codigo deu 0, porque o construtor devia estar inicializado a -1 no first e no last. mas funciona bem
 	private String[] q;
 	private int first;
 	private int last;
